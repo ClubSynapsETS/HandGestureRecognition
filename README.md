@@ -1,16 +1,12 @@
 # HandGestureRecognition
 
-HandGestureRecognition is a project I made as a member of the [SynapETS](https://synapsets.etsmtl.ca/) student club at [ETS](https://www.etsmtl.ca/en) in Montreal. The SynapETS student club focuses on developing brain/machine interfaces and exploring biomedical technologies.
+The main goal for this project, here at [SynapETS](https://synapsets.etsmtl.ca/), is to develop gesture recognition algorithms that can be integrated into smart prosthetics. These algorithms can interpret EMG signals from a particular limb and recognize the intended movement of the user.
 
-The main goal of this project is to experiment with different signal processing and classification techniques to interpret biological signals. Here, the focus is on interpreting the bio-electrical signals from the forearm in order to recognize different movement patterns. This kind of tech can be used for ergonomic applications (ex: [CTRL-Labs](https://www.ctrl-labs.com/)) or biomedical applications (ex: [Open Bionics](https://openbionics.com/)).
+This project was also part of our contest entry for the 2019 NeuroTechX Open challenge. Here is a link to our [video](https://www.youtube.com/watch?v=txTTXi7mKF0&feature=youtu.be).
 
 ![](Docs/demo_gif.gif)
 
-I made the project as modular as possible by dividing it into 3 software components. All components are separately documented and come with installation steps and detailed usage instructions.
-
 **Note that this is meant to be an academic/research project and not an optimal solution for a scalable movement recognition.**
-
-The SynapsETS team plans to keep working on the project and add new components in the future. You should check out their branch [here](https://google.ca).
 
 ### Components
 * [emg_comm](emg_comm/)
